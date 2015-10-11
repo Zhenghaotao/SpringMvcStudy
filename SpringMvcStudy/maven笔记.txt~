@@ -1,0 +1,37 @@
+
+骨架
+src
+    -main
+            -jvaa
+    -test
+            -java
+    resources
+
+
+maven常用命令
+
+mvn -v 查看maven版本
+	compile　编译
+	test 测试
+	package 打包
+	clean 删除 target
+	install 安装jar包到本地仓库中.
+
+	
+自动构建						
+	创建目录的两种方式:
+	1.archetype:generate按照提示进行选择
+	2.archetype:generate -DgroupId=组织名，公司网址的反写+项目名
+			     -DartifactId=项目名-模块名
+			　　　　　-Dversion=版本号
+			     -Dpackage= 代码所存在的包名
+
+maven中的坐标和仓库
+
+	坐标
+		构件
+	仓库
+		本地仓库　　　远程仓库
+
+
+	
